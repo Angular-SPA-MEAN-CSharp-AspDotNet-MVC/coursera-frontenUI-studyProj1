@@ -6,9 +6,9 @@ $background-pale: #D1C4E9;
 // Height variables
 $carousel-item-height: 300px;
 
-@mixin zero-margin($pad-up-down, $pad-left-right){
+@mixin zero-margin($pad-up-dn, $pad-left-right){
   margin: 0px auto;
-  padding: $pad-up-won $pad-left-right;
+  padding: $pad-up-dn $pad-left-right;
 }
 
 .row-header{
