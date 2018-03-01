@@ -19,6 +19,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "browser-sync": "^2.23.6",
     "cssmin": "^0.4.3",
     "grunt": "^1.0.2",
     "grunt-browser-sync": "^2.2.0",
@@ -31,6 +32,7 @@
     "grunt-filerev": "^2.3.1",
     "grunt-sass": "^2.1.0",
     "grunt-usemin": "^3.1.1",
+    "gulp": "^3.9.1",
     "htmlmin": "0.0.7",
     "imagemin-cli": "^3.0.0",
     "jit-grunt": "^0.10.0",
@@ -46,6 +48,7 @@
   "dependencies": {
     "bootstrap": "^4.0.0-alpha.6",
     "grunt-contrib-watch": "^1.0.0",
+    "gulp-sass": "^3.1.0",
     "jquery": "^3.3.1",
     "tether": "^1.4.3"
   }
