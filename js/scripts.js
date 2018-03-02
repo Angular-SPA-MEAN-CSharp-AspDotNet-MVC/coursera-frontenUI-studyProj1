@@ -1,3 +1,6 @@
+
+
+
 $(document).ready(function(){
     $("#mycarousel").carousel({interval: 4000});
     $("#carouselButton").click(function(){
@@ -11,6 +14,15 @@ $(document).ready(function(){
             $('#carouselButton').children('span').removeClass('fa-play');
             $('#carouselButton').children('span').addClass('fa-pause');
         }
-
     });
+
+
+    $('#loginBtn').click(function(){
+        $('#loginModal').modal('toggle');
+    });
+
+    $('#resvTableBtn').click(function(){
+        $('#reserveModal').modal('toggle');
+    });
+
 });
